@@ -1,2 +1,4 @@
 # vision-bert-CCL
-## Download dataset
+## Prepare dataset and models
+
+## Run scripts
