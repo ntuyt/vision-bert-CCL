@@ -2,7 +2,9 @@
 ## Prepare dataset and models
 
 ### Pretrain Dataset:
-conceptual caption dataset, you can download the precomputed features through this link
+conceptual caption dataset, you can download the precomputed features through 
+
+wget https://www.dropbox.com/s/4g0x49h302xj7j4/coco.tar.gz?dl=0
 
 then unzip your downloaded file, obtain the fold cc, and move it to the fold ./dataset
 
