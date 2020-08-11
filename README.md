@@ -18,9 +18,15 @@ then move your downloaded .bin file to ./bert fold
 
 ### Pretrained Vision-Bert Model
 
+you can download the pretrained bert model through this link
+
+then move your downloaded .bin file to ./models fold
+
 ## Run Scripts
 
+Finetune the pretrained model on the retrieval task:
 
+python train.py --task retrieval --resume models/6layer_mlm_pretrain.pth.tar 
 
 
 
