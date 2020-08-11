@@ -14,7 +14,7 @@ wget https://www.dropbox.com/s/4g0x49h302xj7j4/coco.tar.gz?dl=0
 then unzip your downloaded file, obtain the fold coco, and move it to the fold ./dataset
 
 ### BERT Model
-you can download the pretrained bert model through this link
+you can download the pretrained bert model through this link<https://www.dropbox.com/s/4g0x49h302xj7j4/coco.tar.gz?dl=0>
 
 then move your downloaded .bin file to ./bert fold
 
