@@ -79,11 +79,12 @@ def main():
     # Load Vocabulary Wrapper
 
     # Load data loaders
-    train_loader = datanew64c32bertccmlm_mrm.get_loaders(
-        opt.data_name, opt.batch_size*16, opt.workers, opt)
-
-    train_loader2, val_loader = datanew64c32bert.get_loaders(
-        opt.data_name, opt.batch_size, opt.workers, opt)
+    if opt.task == "pretrain":
+        train_loader = datanew64c32bertccmlm_mrm.get_loaders(
+            opt.data_name, opt.batch_size*16, opt.workers, opt)
+    else:
+        train_loader2, val_loader = datanew64c32bert.get_loaders(
+            opt.data_name, opt.batch_size, opt.workers, opt)
 
     # Construct the model
     model = SCAN(opt)#.half()
